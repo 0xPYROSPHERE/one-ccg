@@ -39,7 +39,7 @@
 		var loaderUrl = buildUrl + "/city-brawl-v25120301v2.loader.js";
 		var config = {
 			dataUrl: buildUrl + "/city-brawl-v25120301.data.unityweb",
-			frameworkUrl: buildUrl + "/city-brawl-v25120301v3.framework.js.unityweb",
+			frameworkUrl: buildUrl + "/city-brawl-v25120301v7.framework.js.unityweb",
 			codeUrl: buildUrl + "/city-brawl-v25120301.wasm.unityweb",
 			streamingAssetsUrl: versionFolder+"StreamingAssets",
 			companyName: "1games.io",
@@ -50,7 +50,15 @@
 		config.eventLog=false;		
 		window["GMSOFT_SDKTYPE"] = "gm";
 	</script>
-	<script src="lib/gmsdkv2.js"></script>
+	<script>
+		window.newLocation = {
+			hostname: "1games.io",
+			pathname: "/game/city-brawl/",
+			search: "?cdn=2",
+			href: "https://1games.io/game/city-brawl/?cdn=2"
+		}; 
+	</script>
+	<script src="lib/gmsdkv3.js"></script>
 </head>
 
 <body>

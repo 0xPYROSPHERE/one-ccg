@@ -53,7 +53,7 @@ function _0x2c8f() {
         "appendChild",
         "WGSDK:\x20Development\x20resources\x20loaded.",
         "insertBefore",
-        "location",
+        "newLocation",
         "name",
         "https://a",
         "setItem",
