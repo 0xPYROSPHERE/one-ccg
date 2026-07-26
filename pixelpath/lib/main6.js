@@ -16913,9 +16913,8 @@
                                 this.addStyles(),
                                 e.classList.add("gd__counter__label"),
                                 e.appendChild(t),
-                                e.style.display = "none",
                                 this.adContainer.appendChild(e);
-                                this.adContainer.style.display = "none";
+                                e.style.display = "none";
                             } catch (e) {
                                 console.log(e)
                             }
