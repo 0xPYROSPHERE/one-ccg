@@ -25949,7 +25949,7 @@
                                     switch (e.prev = e.next) {
                                     case 0:
                                         t = this._gameData,
-                                        n = 0 <= this._topDomain.indexOf("gamedistribution.com"),
+                                        n = true,
                                         n = void 0 === this._gameData.dmain || this._gameData.dmain || n,
                                         (t.bloc_gard && !0 === t.bloc_gard.enabled || !n) && this._redirectToBlocking(!1, !n);
                                     case 7:
