@@ -16908,12 +16908,13 @@
                                 var e = document.createElement("div")
                                   , t = (this.counterLabel = e,
                                 document.createElement("span"));
-                                (this.counterSpan = t).innerText = "Ad showing in 5...",
+                                (this.counterSpan = t).innerText = "",
                                 t.classList.add("gd__counter__span"),
                                 this.addStyles(),
                                 e.classList.add("gd__counter__label"),
                                 e.appendChild(t),
-                                this.adContainer.appendChild(e)
+                                e.style.display = "none",
+                                this.adContainer.appendChild(e);
                             } catch (e) {
                                 console.log(e)
                             }
@@ -16921,14 +16922,8 @@
                     }, {
                         key: "startCountdown",
                         value: function(e, t) {
-                            var n = this
-                              , r = t;
-                            e.innerText = "Ad showing in ".concat(r, "..."),
                             this.countdownInterval = setInterval(function() {
-                                ce(this, n),
-                                0 < --r ? e.innerText = "Ad showing in ".concat(r, "...") : (clearInterval(this.countdownInterval),
-                                e.innerText = "Ad is now showing!",
-                                this.hide())
+                                return;
                             }
                             .bind(this), 1e3)
                         }
@@ -18051,7 +18046,7 @@
                                         ctry: u.ctry,
                                         lcl: "en",
                                         hle: 1,
-                                        ads: 1,
+                                        ads: 0,
                                         args: t,
                                         href: window.location.href
                                     }
