@@ -16915,6 +16915,7 @@
                                 e.appendChild(t),
                                 e.style.display = "none",
                                 this.adContainer.appendChild(e);
+                                this.adContainer.style.display = "none";
                             } catch (e) {
                                 console.log(e)
                             }
