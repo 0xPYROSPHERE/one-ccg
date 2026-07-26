@@ -36,7 +36,7 @@ const runtimeData = (function () {
         prefsContainerTags: [ "json-data" ],
 
         // Platform specific scripts.
-        wrapperScript: "gameDistributionWrapper2.js",
+        wrapperScript: "gameDistributionWrapper3.js",
 
         // YandexGames.
         yandexGamesSDK: "/sdk.js",
