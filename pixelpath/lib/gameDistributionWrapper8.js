@@ -74,7 +74,7 @@ class GameDistributionWrapper {
 			if (d.getElementById(id)) return;
 			js = d.createElement(s);
 			js.id = id;
-			js.src = "lib/main5.min.js";
+			js.src = "lib/main6.min.js";
 			fjs.parentNode.insertBefore(js, fjs);
 		})(document, "script", "gamedistribution-jssdk");
 	}
