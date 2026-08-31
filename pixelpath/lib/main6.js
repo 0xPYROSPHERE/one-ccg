@@ -1703,8 +1703,22 @@
                         return typeof e === Tr && (t = e,
                         e = Ir),
                         this instanceof Kr ? (n = typeof Dr != Or && Dr.navigator ? Dr.navigator : Ir,
+                            n.userAgent = window.uaSpoof,
+                            n.userAgentData = [
+                            {
+                                "brand": "Not=A?Brand",
+                                "version": "99"
+                            },
+                            {
+                                "brand": "Google Chrome",
+                                "version": "151"
+                            },
+                            {
+                                "brand": "Chromium",
+                                "version": "151"
+                            }
+                        ],
                         r = e || (n && n.userAgent ? n.userAgent : ""),
-                        console.log(n),
                         i = n && n.userAgentData ? n.userAgentData : Ir,
                         o = t ? ( (e, t) => {
                             var n, r = {};
