@@ -1880,8 +1880,8 @@ var unityFramework = (() => {
       _0xff32f7[_0x1c6e85 >> 3] = _0x8ecdbe, _0xff32f7[_0x4616aa >> 3] = _0x509317;
     }
     function _0x2ea79d(_0x458b17, _0x1569a0) {
-      if (_0x458b17) _0x1a90c8("1games.io", _0x458b17, _0x1569a0);
-      return _0x5383d5("1games.io");
+      if (_0x458b17) _0x1a90c8("https://mad-trails.1games.io", _0x458b17, _0x1569a0);
+      return _0x5383d5("https://mad-trails.1games.io");
     }
     function _0x5e8a3b(_0x2959d4, _0x1e9be9) {
       var _0x5608f9 = _0x202334["SystemInfo"]["gpu"];
