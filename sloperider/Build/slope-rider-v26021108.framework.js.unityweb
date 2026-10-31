@@ -592,7 +592,7 @@ var unityFramework = (() => {
         })["catch"](function (_0xdcae44) {
           window["unityInstance"]["SendMessage"](_0x1c416c, _0x17308c, JSON["stringify"](_0xdcae44, Object["getOwnPropertyNames"](_0xdcae44)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -605,7 +605,7 @@ var unityFramework = (() => {
         })["catch"](function (_0x339ea9) {
           window["unityInstance"]["SendMessage"](_0x5d8548, _0xaa56c2, JSON["stringify"](_0x339ea9, Object["getOwnPropertyNames"](_0x339ea9)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -635,7 +635,7 @@ var unityFramework = (() => {
         })["catch"](function (_0x4398ee) {
           window["unityInstance"]["SendMessage"](_0x270c56, _0x4a87f4, JSON["stringify"](_0x4398ee, Object["getOwnPropertyNames"](_0x4398ee)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -687,7 +687,7 @@ var unityFramework = (() => {
         })["catch"](function (_0x1fc581) {
           window["unityInstance"]["SendMessage"](_0x196c37, _0x5eace7, JSON["stringify"](_0x1fc581, Object["getOwnPropertyNames"](_0x1fc581)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -700,7 +700,7 @@ var unityFramework = (() => {
         })["catch"](function (_0x1f8d2a) {
           window["unityInstance"]["SendMessage"](_0x3efa60, _0x26cb77, JSON["stringify"](_0x1f8d2a, Object["getOwnPropertyNames"](_0x1f8d2a)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -710,7 +710,7 @@ var unityFramework = (() => {
         firebase["database"]()["ref"](_0x33a02e)["remove"]()["then"](function (_0x3c03ef) {
           window["unityInstance"]["SendMessage"](_0x5478c6, _0x3f0795, "Success: " + _0x33a02e + " was deleted");
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -726,7 +726,7 @@ var unityFramework = (() => {
         })["catch"](function (_0x549a4b) {
           window["unityInstance"]["SendMessage"](_0x195aed, _0x5b1c26, JSON["stringify"](_0x549a4b, Object["getOwnPropertyNames"](_0x549a4b)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
       function _0x4e5597(_0x2e6475) {
@@ -896,7 +896,7 @@ var unityFramework = (() => {
         })["catch"](function (_0x178782) {
           window["unityInstance"]["SendMessage"](_0x1f98bd, _0x168b29, JSON["stringify"](_0x178782, Object["getOwnPropertyNames"](_0x178782)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -911,7 +911,7 @@ var unityFramework = (() => {
         })["catch"](function (_0x1bc67b) {
           window["unityInstance"]["SendMessage"](_0x4b83d6, _0x1b3d58, JSON["stringify"](_0x1bc67b, Object["getOwnPropertyNames"](_0x1bc67b)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -941,7 +941,7 @@ var unityFramework = (() => {
         firebase["database"]()["ref"](_0x19d29b)["once"]("value")["then"](function (_0x4f040f) {
           window["unityInstance"]["SendMessage"](_0x181c57, _0x55c290, JSON["stringify"](_0x4f040f["val"]()));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -1015,7 +1015,7 @@ var unityFramework = (() => {
         })["catch"](function (_0x1669f4) {
           window["unityInstance"]["SendMessage"](_0x17e2da, _0x36146c, JSON["stringify"](_0x1669f4, Object["getOwnPropertyNames"](_0x1669f4)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2056,7 +2056,7 @@ var unityFramework = (() => {
         firebase["database"]()["ref"](_0x575b32)["on"]("child_added", function (_0x4e6d0d) {
           window["unityInstance"]["SendMessage"](_0xc7c955, _0x460bd5, JSON["stringify"](_0x4e6d0d["val"]()));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2066,7 +2066,7 @@ var unityFramework = (() => {
         firebase["database"]()["ref"](_0x2aa767)["on"]("child_changed", function (_0x103c46) {
           window["unityInstance"]["SendMessage"](_0x4d66f8, _0x5f213a, JSON["stringify"](_0x103c46["val"]()));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2076,7 +2076,7 @@ var unityFramework = (() => {
         firebase["database"]()["ref"](_0x14d68e)["on"]("child_removed", function (_0x3f5386) {
           window["unityInstance"]["SendMessage"](_0x455a4a, _0x3b9b7d, JSON["stringify"](_0x3f5386["val"]()));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2105,7 +2105,7 @@ var unityFramework = (() => {
         }, function (_0x172bdc) {
           window["unityInstance"]["SendMessage"](_0x4e0e31, _0x111a63, JSON["stringify"](_0x172bdc, Object["getOwnPropertyNames"](_0x172bdc)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2115,7 +2115,7 @@ var unityFramework = (() => {
         firebase["database"]()["ref"](_0x287e20)["on"]("value", function (_0x16bcf2) {
           window["unityInstance"]["SendMessage"](_0x7c5f19, _0x4a6b08, JSON["stringify"](_0x16bcf2["val"]()));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2135,7 +2135,7 @@ var unityFramework = (() => {
         })["then"](function (_0x4527f4) {
           window["unityInstance"]["SendMessage"](_0x568ea0, _0x2fd702, "Success: transaction run in " + _0xbed506);
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2145,7 +2145,7 @@ var unityFramework = (() => {
       firebase["auth"]()["onAuthStateChanged"](function (_0x286935) {
         _0x286935 ? window["unityInstance"]["SendMessage"](_0x5a3ab8, _0x1babc7, JSON["stringify"](_0x286935)) : window["unityInstance"]["SendMessage"](_0x5a3ab8, _0x193b2b, "User signed out");
       });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2176,7 +2176,7 @@ var unityFramework = (() => {
         firebase["database"]()["ref"](_0x385fac)["set"](JSON["parse"](_0x311fbd))["then"](function (_0x47dbec) {
           window["unityInstance"]["SendMessage"](_0x1fbb7d, _0x46f3e6, "Success: " + _0x311fbd + " was posted to " + _0x385fac);
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2186,7 +2186,7 @@ var unityFramework = (() => {
         firebase["database"]()["ref"](_0x2384e7)["push"]()["set"](JSON["parse"](_0x16c739))["then"](function (_0x30124d) {
           window["unityInstance"]["SendMessage"](_0x988cf, _0x5bc0f4, "Success: " + _0x16c739 + " was pushed to " + _0x2384e7);
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2227,7 +2227,7 @@ var unityFramework = (() => {
         })["catch"](function (_0xc92052) {
           window["unityInstance"]["SendMessage"](_0xb5a183, _0x486ce3, JSON["stringify"](_0xc92052, Object["getOwnPropertyNames"](_0xc92052)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2313,7 +2313,7 @@ var unityFramework = (() => {
         })["catch"](function (_0x1feac5) {
           window["unityInstance"]["SendMessage"](_0x54b48c, _0x23456f, JSON["stringify"](_0x1feac5, Object["getOwnPropertyNames"](_0x1feac5)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2356,7 +2356,7 @@ var unityFramework = (() => {
         })["catch"](function (_0x1e00ba) {
           window["unityInstance"]["SendMessage"](_0x49a231, _0x5488b2, JSON["stringify"](_0x1e00ba, Object["getOwnPropertyNames"](_0x1e00ba)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2368,7 +2368,7 @@ var unityFramework = (() => {
         })["catch"](function (_0x3595ae) {
           window["unityInstance"]["SendMessage"](_0x4eda6c, _0x82e94, JSON["stringify"](_0x3595ae, Object["getOwnPropertyNames"](_0x3595ae)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2381,7 +2381,7 @@ var unityFramework = (() => {
         })["catch"](function (_0xde94f2) {
           window["unityInstance"]["SendMessage"](_0x276b10, _0x313fdb, JSON["stringify"](_0xde94f2, Object["getOwnPropertyNames"](_0xde94f2)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2394,7 +2394,7 @@ var unityFramework = (() => {
         })["catch"](function (_0x2ea982) {
           window["unityInstance"]["SendMessage"](_0x22b341, _0x883a46, JSON["stringify"](_0x2ea982, Object["getOwnPropertyNames"](_0x2ea982)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2402,7 +2402,7 @@ var unityFramework = (() => {
       var _0x1d8dd4 = _0x249e79(_0x5ec41b), _0x353098 = _0x249e79(_0x2359c5), _0x5b8159 = _0x249e79(_0x3248ec), _0x55662b = _0x249e79(_0x28646a);
       try {
         firebase["database"]()["ref"](_0x1d8dd4)["off"]("child_added"), window["unityInstance"]["SendMessage"](_0x353098, _0x5b8159, "Success: listener removed");
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2410,7 +2410,7 @@ var unityFramework = (() => {
       var _0x4f0565 = _0x249e79(_0x19f999), _0x3409b0 = _0x249e79(_0x2642f1), _0x465ce3 = _0x249e79(_0x8756), _0x2e047e = _0x249e79(_0x1418d9);
       try {
         firebase["database"]()["ref"](_0x4f0565)["off"]("child_changed"), window["unityInstance"]["SendMessage"](_0x3409b0, _0x465ce3, "Success: listener removed");
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2418,7 +2418,7 @@ var unityFramework = (() => {
       var _0x10620e = _0x249e79(_0x2a13d8), _0x1400a7 = _0x249e79(_0x2a5cfa), _0x4bac17 = _0x249e79(_0x2e5722), _0x53f774 = _0x249e79(_0xfeeb69);
       try {
         firebase["database"]()["ref"](_0x10620e)["off"]("child_removed"), window["unityInstance"]["SendMessage"](_0x1400a7, _0x4bac17, "Success: listener removed");
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2427,7 +2427,7 @@ var unityFramework = (() => {
       try {
         if (typeof firestorelisteners === "undefined") firestorelisteners = {};
         this["firestorelisteners"][_0x20687b + "/collection/"](), window["unityInstance"]["SendMessage"](_0x378c9c, _0x58429d, "Success: listener was removed");
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2436,7 +2436,7 @@ var unityFramework = (() => {
       try {
         if (typeof firestorelisteners === "undefined") firestorelisteners = {};
         this["firestorelisteners"][_0x17e697 + "/" + _0x4ba570](), window["unityInstance"]["SendMessage"](_0x4dcb78, _0xea3e55, "Success: listener was removed");
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2444,7 +2444,7 @@ var unityFramework = (() => {
       var _0x20d8d7 = _0x249e79(_0x1b9f9f), _0x3a2357 = _0x249e79(_0xafb4f5), _0x29368e = _0x249e79(_0x4252e7), _0x55beb1 = _0x249e79(_0x1d38e5);
       try {
         firebase["database"]()["ref"](_0x20d8d7)["off"]("value"), window["unityInstance"]["SendMessage"](_0x3a2357, _0x29368e, "Success: listener removed");
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2463,7 +2463,7 @@ var unityFramework = (() => {
         })["then"](function (_0x2b5c3e) {
           window["unityInstance"]["SendMessage"](_0x1c8b99, _0x50e30d, "Success: transaction run in " + _0x568a10);
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2475,7 +2475,7 @@ var unityFramework = (() => {
         })["catch"](function (_0x20a0b6) {
           window["unityInstance"]["SendMessage"](_0x1d5519, _0x2304f7, JSON["stringify"](_0x20a0b6, Object["getOwnPropertyNames"](_0x20a0b6)));
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2485,7 +2485,7 @@ var unityFramework = (() => {
         firebase["database"]()["ref"](_0x53de8a)["update"](JSON["parse"](_0x4fa36b))["then"](function (_0x28c5bd) {
           window["unityInstance"]["SendMessage"](_0x3f705f, _0x2ec7a6, "Success: " + _0x4fa36b + " was updated in " + _0x53de8a);
         });
-      } catch () {
+      } catch (e) {
         return;
       }
     }
@@ -2495,7 +2495,7 @@ var unityFramework = (() => {
         firebase["storage"]()["ref"](_0x13fdc2)["put"](_0x227f40(_0x416833))["then"](function (_0x17d94d) {
           window["unityInstance"]["SendMessage"](_0x1b92d5, _0x49bf64, "Success: data was posted to " + _0x13fdc2);
         });
-      } catch () {
+      } catch (e) {
         return;
       }
       function _0x227f40(_0x5ba17c) {
